@@ -14,6 +14,10 @@ body {
   padding: 20px;
 }
 
+.header h1 {
+  margin: 0;
+}
+
 /* Latest News Section Styling */
 .latest-news-section {
   background-color: #011e29;
@@ -22,10 +26,11 @@ body {
   width: 80%;
   margin: 20px auto;
   border-radius: 10px;
+  text-align: center;
 }
 
 .latest-news-section h2 {
-  text-align: center;
+  margin-top: 0;
 }
 
 .latest-news-section ul {
@@ -35,7 +40,6 @@ body {
 
 .latest-news-section li {
   margin: 10px 0;
-  text-align: center;
 }
 
 /* Pictorial News Section Styling */
@@ -51,10 +55,17 @@ body {
 
 .pictorial-news-section h2 {
   color: #011e29;
+  margin-top: 0;
+}
+
+.pictorial-news-section .images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .pictorial-news-section img {
   width: 30%;
-  margin: 10px;
+  margin: 10px 0;
   border-radius: 10px;
 }
